@@ -1,3 +1,6 @@
+来源于大佬:FuriousPws002
+https://github.com/FuriousPws002/cas-pac4j-example
+
 # 简述
 该项目集成了CAS Server CAS Client 以及客户端采用Pac4j的方式来认证
 # 什么是单点登录
