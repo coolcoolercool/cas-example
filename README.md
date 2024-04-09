@@ -1,5 +1,4 @@
-来源于大佬:FuriousPws002
-https://github.com/FuriousPws002/cas-pac4j-example
+
 
 # 简述
 该项目集成了CAS Server CAS Client 以及客户端采用Pac4j的方式来认证
@@ -126,3 +125,6 @@ shiro.loginUrl=/login.html
 主类中`CasClient1Application`添加了cas认证的相关配置，而`TestController`则包含了单纯的shiro登录和cas的rest方式登录。
 启动后，访问http://localhost:8081/cas.html ，会跳转到CAS Server去认证，认证完成后，访问http://localhost:8081/test 可以测试权限数据是否正确。
 CAS Server除了采用CAS本身的login登录界面外，还支持rest的方式，获取认证，访问http://localhost:8081/login.html ，输入u/p后会通过rest的方式认证。
+
+来源于大佬:FuriousPws002
+https://github.com/FuriousPws002/cas-pac4j-example
